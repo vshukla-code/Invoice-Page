@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.border-section {
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* hosting name start */
+
+.domain-name {
+    padding-top: 50px;
+}
+
+.domain-name h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.domain-name span {
+    color: orange !important;
+}
+
+
+/* hosting name End */
+
+
+/* address section start */
+.address {
+
+    text-align: right;
+}
+
+#ind {
+    font-weight: bold;
+}
+
+
+
+/* address section End */
+
+/* Ivoice number section start  */
+.invoice-num {
+    background-color: rgb(231, 225, 225);
+    color: black;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+/* Ivoice number section End  */
+
+
+/* invoice to send address section */
+.invoice-to {
+    margin-top: 30px;
+    text-align: left;
+}
+
+
+.invoice-to p {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+/* invoice to send address section End */
+
+
+/* Description in amount invoice start */
+
+.description {
+    /* width: 100%; */
+    margin: 30px 0px 30px 0px;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    font-size: small;
+    font-weight: bold;
+    color: black;
+}
+
+td {
+    font-size: 14px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 400;
+
+
+}
+
+th {
+    background-color: rgb(192, 185, 185);
+    color: black;
+}
+
+table tr th td {
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.transaction-items {
+    margin-top: 30px;
+}
+
+.transaction-items h3 {
+    margin-bottom: 20px;
+}
+
+/* Description in amount invoice end  */
+
+
+
+/* footer section start */
+
+
+.footer {
+    margin: 30px 0px 50px 0px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
+/* footer section End */
+
+
+
+
+/* Media queries for Laptop screens */
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        /* Stacks columns on smaller screens */
+    }
+
+    #box-1 {
+        grid-row-end: 2;
+    }
+}
+
+/* Media queries for Ipad screens */
+@media (max-width: 999px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        /* Stacks columns on smaller screens */
+    }
+
+    #box-1 {
+        grid-row-end: 2;
+    }
+}
+
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        /* Stacks columns on smaller screens */
+    }
+
+    #box-1 {
+        grid-row-end: 2;
+    }
+}
